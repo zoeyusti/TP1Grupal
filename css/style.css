@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+}
+
+header, .banner, div, footer{
+	background-color: #EBEBEB;
+}
+header{
+	height: 100px;
+	margin: 5px 0;
+	position: relative;
+}
+h1{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+}
+.links{
+	position: absolute;
+	top: 35px;
+	right: 20px;
+}
+.links a{
+	
+
+	margin: 0 10px;
+}
+.banner{
+	height: 150px;
+	margin: 5px 0;
+	position: relative;
+}
+.banner img{
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+.banner h2{
+	position: absolute;
+	left: 300px;
+	top: 25px;
+}
+.banner p{
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+.banner .fa{
+	font-size: 36px;
+	margin: 5px;
+}
+.banner .gitlink{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+#slider{
+	height: 300px;
+	margin: 5px 0;
+}
+.coso{
+	display: inline-block;
+	height: 200px;
+	width: 33.142%;
+	margin: auto;
+	position: relative;
+}
+.coso img{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.coso .texto{
+	position: absolute;
+	left: 200px;
+	top: 25px;
+}
+footer{
+	height: 50px;
+	margin: auto;
+}
+
+footer .fa{
+	font-size: 36px;
+	margin: 5px;
+}
+footer .redes{
+	float: right;
+}
