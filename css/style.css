@@ -15,10 +15,9 @@ header{
 	margin: 5px 0;
 	position: relative;
 }
-h1{
+header img{
 	float: left;
 	margin-left: 20px;
-	text-align: center;
 }
 .links{
 	position: absolute;
