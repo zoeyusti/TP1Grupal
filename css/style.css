@@ -62,22 +62,33 @@ header img{
 	height: 300px;
 	margin: 5px 0;
 }
+.sect{
+	display: flex;
+	margin: 5px auto;
+}
 .coso{
 	display: inline-block;
 	height: 200px;
 	width: 33.142%;
-	margin: auto;
 	position: relative;
+	/*flex-direction: row;*/
+	display: flex;
+	
 }
 .coso img{
-	position: absolute;
+	/*position: absolute;
 	top: 25px;
-	left: 25px;
+	left: 25px;*/
+	justify-content: flex-start;
+	margin: 15px;
 }
 .coso .texto{
-	position: absolute;
+	/*position: absolute;
 	left: 200px;
-	top: 25px;
+	top: 25px;*/
+	margin: auto;
+	justify-content: flex-end;
+	align-items: center;
 }
 footer{
 	height: 50px;
@@ -90,4 +101,11 @@ footer .fa{
 }
 footer .redes{
 	float: right;
+}
+
+
+@media (max-width: 600px) {
+	.coso{
+		display: none;
+	}
 }
