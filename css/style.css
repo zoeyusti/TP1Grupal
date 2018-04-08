@@ -25,7 +25,7 @@ header img{
 	right: 20px;
 }
 .links a{
-	
+
 
 	margin: 0 10px;
 }
@@ -73,7 +73,7 @@ header img{
 	position: relative;
 	/*flex-direction: row;*/
 	display: flex;
-	
+
 }
 .coso img{
 	/*position: absolute;
@@ -108,4 +108,8 @@ footer .redes{
 	.coso{
 		display: none;
 	}
+}
+
+#slides {
+	display:none;
 }
