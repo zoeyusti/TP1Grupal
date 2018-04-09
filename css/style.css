@@ -23,9 +23,11 @@ header img{
 }
 
 .links{
-	position: absolute;
+	/*position: absolute;
 	top: 35px;
-	right: 20px;
+	right: 20px;*/
+	float: right;
+	margin-top: 35px;
 }
 
 .links a{
@@ -38,24 +40,28 @@ header img{
 	height: 150px;
 	margin: 5px 0;
 	position: relative;
+	display: flex;
 }
 
 .banner img{
-	position: absolute;
+	/*position: absolute;
 	left: 25px;
-	top: 25px;
+	top: 25px;*/
+	justify-content: flex-start;
+	margin: 25px;
 }
 
-.banner h3{
+/*.banner h3{
 	position: absolute;
 	left: 300px;
 	top: 25px;
 }
-
+*/
 .banner p{
-	position: absolute;
+	/*position: absolute;
 	left: 300px;
-	top: 90px;
+	bottom: 10px;*/
+	width: 75%;
 }
 
 .banner .fa{
@@ -77,6 +83,7 @@ header img{
 .coso{
 	display: inline-block;
 	height: 200px;
+	padding-bottom: 50px;
 	width: 33.142%;
 	position: relative;
 	/*flex-direction: row;*/
@@ -91,7 +98,7 @@ header img{
 	margin: 15px;
 }
 
-.coso .texto{
+ .texto{
 	/*position: absolute;
 	left: 200px;
 	top: 25px;*/
@@ -118,11 +125,48 @@ footer a{
 	text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1030px) {
+
 	.coso{
-		display: none;
+		padding-bottom: 225px;	
 	}
 }
+
+@media (max-width: 800px) {
+
+		header{
+		padding-bottom: 100px;
+	}
+
+	.coso{
+		display: none;		
+	}
+	.banner{
+		padding-bottom: 150px;
+	}
+	.banner p{
+		width: 50%;
+	}
+}
+
+@media (max-width: 450px){
+
+	header{
+		padding-bottom: 100px;
+	}
+
+	.coso{
+		display: none;		
+	}
+	.banner{
+		padding-bottom: 250px;
+	}
+	.banner p{
+		width: 50%;
+	}
+}
+
+
 
 h3 {
 	font-family: 'MedievalSharp', cursive;
