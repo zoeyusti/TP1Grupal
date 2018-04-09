@@ -10,62 +10,70 @@ body{
 header, .banner, div, footer{
 	background-color: #EBEBEB;
 }
+
 header{
 	height: 100px;
 	margin: 5px 0;
 	position: relative;
 }
+
 header img{
 	float: left;
 	margin-left: 20px;
 }
+
 .links{
 	position: absolute;
 	top: 35px;
 	right: 20px;
 }
+
 .links a{
-
-
+	text-decoration: none;
+  font-family: 'MedievalSharp', cursive;
 	margin: 0 10px;
 }
+
 .banner{
 	height: 150px;
 	margin: 5px 0;
 	position: relative;
 }
+
 .banner img{
 	position: absolute;
 	left: 25px;
 	top: 25px;
 }
-.banner h2{
+
+.banner h3{
 	position: absolute;
 	left: 300px;
 	top: 25px;
 }
+
 .banner p{
 	position: absolute;
 	left: 300px;
 	top: 90px;
 }
+
 .banner .fa{
 	font-size: 36px;
 	margin: 5px;
 }
+
 .banner .gitlink{
 	position: absolute;
 	right: 20px;
 	bottom: 10px;
 }
-#slider{
-	height: 300px;
-	margin: 5px 0;
-}
+
 .sect{
 	display: flex;
 	margin: 5px auto;
 }
+
 .coso{
 	display: inline-block;
 	height: 200px;
@@ -73,8 +81,8 @@ header img{
 	position: relative;
 	/*flex-direction: row;*/
 	display: flex;
-
 }
+
 .coso img{
 	/*position: absolute;
 	top: 25px;
@@ -82,6 +90,7 @@ header img{
 	justify-content: flex-start;
 	margin: 15px;
 }
+
 .coso .texto{
 	/*position: absolute;
 	left: 200px;
@@ -90,6 +99,7 @@ header img{
 	justify-content: flex-end;
 	align-items: center;
 }
+
 footer{
 	height: 50px;
 	margin: auto;
@@ -99,10 +109,14 @@ footer .fa{
 	font-size: 36px;
 	margin: 5px;
 }
+
 footer .redes{
 	float: right;
 }
 
+footer a{
+	text-decoration: none;
+}
 
 @media (max-width: 600px) {
 	.coso{
@@ -110,6 +124,10 @@ footer .redes{
 	}
 }
 
-#slides {
-	display:none;
+h3 {
+	font-family: 'MedievalSharp', cursive;
+}
+
+p {
+	font-family: 'Gloria Hallelujah', cursive;
 }
