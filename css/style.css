@@ -128,7 +128,7 @@ footer a{
 @media (max-width: 1030px) {
 
 	.coso{
-		padding-bottom: 225px;	
+		padding-bottom: 225px;
 	}
 }
 
@@ -139,11 +139,13 @@ footer a{
 	}
 
 	.coso{
-		display: none;		
+		display: none;
 	}
+
 	.banner{
 		padding-bottom: 150px;
 	}
+
 	.banner p{
 		width: 50%;
 	}
@@ -156,17 +158,25 @@ footer a{
 	}
 
 	.coso{
-		display: none;		
+		display: none;
 	}
+
 	.banner{
 		padding-bottom: 250px;
 	}
+
 	.banner p{
 		width: 50%;
 	}
 }
 
+.bx-wrapper .bx-pager,.bx-wrapper .bx-pager-item {
+	background-color: white;
+}
 
+.bx-wrapper {
+	box-shadow: none;
+}
 
 h3 {
 	font-family: 'MedievalSharp', cursive;
