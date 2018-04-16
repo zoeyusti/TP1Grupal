@@ -8,7 +8,7 @@ body{
 }
 
 header, .banner, div, footer{
-	background-color: #fafafa;
+	background-color: #b5ceff;
 }
 
 header{
@@ -81,6 +81,7 @@ header img{
 .sect{
 	display: flex;
 	margin: 5px auto;
+	padding-top: 40px;
 }
 
 .coso{
