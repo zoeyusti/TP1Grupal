@@ -8,7 +8,7 @@ body{
 }
 
 header, .banner, div, footer{
-	background-color: #EBEBEB;
+	background-color: #fafafa;
 }
 
 header{
@@ -34,6 +34,7 @@ header img{
 	text-decoration: none;
   font-family: 'MedievalSharp', cursive;
 	margin: 0 10px;
+	color: black;
 }
 
 .banner{
@@ -49,6 +50,8 @@ header img{
 	top: 25px;*/
 	justify-content: flex-start;
 	margin: 25px;
+	width: 100px;
+	height: 100px;
 }
 
 /*.banner h3{
@@ -109,7 +112,7 @@ header img{
 
 footer{
 	height: 50px;
-	margin: auto;
+	padding: 15px;
 }
 
 footer .fa{
@@ -122,7 +125,11 @@ footer .redes{
 }
 
 footer a{
+
 	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family: 'MedievalSharp', cursive;
 }
 
 @media (max-width: 1030px) {
@@ -176,6 +183,7 @@ footer a{
 
 .bx-wrapper {
 	box-shadow: none;
+
 }
 
 h3 {
